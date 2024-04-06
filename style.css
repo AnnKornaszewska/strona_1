@@ -1,7 +1,7 @@
 /* Global */
 
 *, *::before, *::after {
-	box-sizing: border-box;
+	box-sizing: border-box;  
 }
 
 body {
@@ -21,4 +21,57 @@ body {
 
 section {
     padding: 108 0px;
+}
+
+/* Splash */
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://i.postimg.cc/593yBsVq/pexels-tatiana-syrikova-3975677.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.splash i {
+    font-size: 30px;
+    background: #e84118;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.page-title {
+    color: #fdcb6e;
+    font-size: 60px;
+    margin: 48px 0 0 0;
+    position: relative;
+    /* font-variant: small-caps; */
+}
+
+.page-title::after {
+    position: absolute;
+    content: '';
+    bottom: -24px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    transform: translateX(-50%);
+    background: #e84118;
+}
+
+.page-subtitle {
+    color: #fdcb6e;
+    margin: 48px 0 0 0;
+    font-size: 30px;
 }
