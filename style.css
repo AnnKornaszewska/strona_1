@@ -56,7 +56,6 @@ section {
     font-size: 60px;
     margin: 48px 0 0 0;
     position: relative;
-    /* font-variant: small-caps; */
 }
 
 .page-title::after {
@@ -74,4 +73,20 @@ section {
     color: #fdcb6e;
     margin: 48px 0 0 0;
     font-size: 30px;
+}
+
+/* Intro */
+
+.intro {
+    background:#fff;
+}
+
+.intro p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 48px 0;
+    font-size: 24px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+
 }
