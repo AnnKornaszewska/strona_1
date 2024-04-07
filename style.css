@@ -23,6 +23,25 @@ section {
     padding: 108 0px;
 }
 
+.section-title {
+    position:relative;
+    color: #faa80f;
+    font-size: 40px;
+    margin: 0 0 60px 0;
+    padding-top: 60px;
+}
+
+.section-title::after {
+    position: absolute;
+    content: '';
+    bottom: -12px;
+    left: 50%;
+    width: 50px;
+    height: 10px;
+    transform: translateX(-50%);
+    background: #e84118;
+}
+
 /* Splash */
 
 .splash {
@@ -70,16 +89,17 @@ section {
 }
 
 .page-subtitle {
-    color: #fdcb6e;
     margin: 48px 0 0 0;
     font-size: 30px;
+    color: #fdcb6e;
 }
 
 /* Intro */
 
 .intro {
     background:#fff;
-}
+    margin-top: 120px;
+} 
 
 .intro p {
     width: 70%;
@@ -88,5 +108,12 @@ section {
     font-size: 24px;
     border-top: 1px solid;
     border-bottom: 1px solid;
+}
 
+/* About */
+
+.about {
+    margin-top: 150px;
+    background: #fff3ca;
+    padding-bottom: 60px;
 }
